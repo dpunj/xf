@@ -1,0 +1,52 @@
+# Personal Records
+# Updated as new PRs are hit. Each entry tracks the movement, weight, and optional context.
+
+crossfit:
+  barbell:
+    deadlift:
+      # Placeholder — add your 1RM when ready
+      notes: "RDL 4x8 @ 125lb logged in Flagship Hypertrophy W2 (Nov 2025)"
+
+    rdl:
+      working: { weight: 125, unit: lb, sets: 4, reps: 8, date: "2025-11-03", program: "Flagship Hypertrophy W2" }
+
+    back_squat:
+      # Add 1RM and working sets
+
+    front_squat:
+      # Add 1RM and working sets
+
+    bench_press:
+      working: { weight: 145, unit: lb, sets: 4, reps: 8, date: "2025-11-03", program: "Flagship Hypertrophy W2", notes: "~85% alleged" }
+
+    push_press:
+      # Add 1RM
+
+    jerk:
+      # Add 1RM
+
+    thruster:
+      # Add 1RM
+
+    clean_complex:
+      # Add 1RM
+
+    clean_and_jerk:
+      # Add 1RM
+
+  dumbbell:
+    db_press:
+      working: { weight: 35, unit: lb, sets: 4, reps: 8, date: "2025-11-03", program: "Flagship Hypertrophy W2" }
+
+    db_split_squat:
+      working: { weight: 45, unit: lb, sets: 4, reps: 8, date: "2025-11-03", program: "Flagship Hypertrophy W2", notes: "per side" }
+
+  bodyweight:
+    ub_strict_pullups:
+      # Add max unbroken
+
+running:
+  # Future: Strava integration, race times, training paces
+
+peloton:
+  # Future: FTP, PR rides, output records

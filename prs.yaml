@@ -50,3 +50,17 @@ running:
 
 peloton:
   # Future: FTP, PR rides, output records
+
+mobility:
+  # ROM benchmarks, position milestones
+  # Future: ankle dorsiflexion, hip flexion, overhead position
+
+breathwork:
+  # BOLT score, breath holds, session tracking
+  bolt_score:
+    # Add baseline BOLT score
+  # Tools: Othership, Apple Watch HRV
+
+meditation:
+  # Sit duration, jhana access, stage progression
+  # Tools: Waking Up

@@ -3,6 +3,9 @@ domains:
   - crossfit
   - running
   - peloton
+  - mobility
+  - breathwork
+  - meditation
 
 training_context:
   current_program: Flagship Hypertrophy Cycle (Nov 2025)

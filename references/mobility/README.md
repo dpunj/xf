@@ -5,6 +5,14 @@
 ### Becoming a Supple Leopard — Kelly Starrett
 → [supple-leopard.md](supple-leopard.md)
 
+### Posture Reset — From Fidgeting to Organized
+→ [posture-reset.md](posture-reset.md)
+
+Practical guide for breaking the hypersomatic posture-chasing cycle.
+Bracing sequence as a single reset, daily mobilization session (16
+min) targeting the four areas that make neutral feel hard, and video
+references for every mobilization.
+
 The mobility bible. Systematic approach to movement quality, tissue
 maintenance, and position-based diagnostics.
 - Three mobility systems: joint mechanics, sliding surfaces, muscle

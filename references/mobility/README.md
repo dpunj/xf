@@ -13,6 +13,14 @@ Bracing sequence as a single reset, daily mobilization session (16
 min) targeting the four areas that make neutral feel hard, and video
 references for every mobilization.
 
+### Sitting Posture — Seminal Resources
+→ [sitting-posture.md](sitting-posture.md)
+
+Books, videos, methods, and cues for desk workers. Covers Starrett
+(Deskbound), Gokhale (8 Steps / stretchsitting / stacksitting),
+McGill (Back Mechanic / Big Three), Alexander Technique, Feldenkrais,
+and quick-reference postural cues.
+
 The mobility bible. Systematic approach to movement quality, tissue
 maintenance, and position-based diagnostics.
 - Three mobility systems: joint mechanics, sliding surfaces, muscle

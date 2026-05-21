@@ -146,6 +146,19 @@ Ready State](https://thereadystate.com) paywall. Free archives:
   Archive](https://antranik.org/mobilitywod-videos/) — organized by
   muscle, body part, and exercise
 
+## Healthy-Day Upgrade
+
+The FoundMyFitness Starrett episode adds the missing all-day layer:
+posture improves fastest when the day contains enough movement inputs.
+See [healthy-day-starrett.md](healthy-day-starrett.md).
+
+Use this hierarchy:
+
+1. **Reset once** with the bracing sequence.
+2. **Mobilize the restriction** if neutral feels hard.
+3. **Add movement snacks** so the body repeatedly touches useful shapes
+   during the day: walk, floor-sit, squat, hang, breathe, rotate.
+
 ## The Mindset
 
 > "All human beings should be able to perform basic maintenance on

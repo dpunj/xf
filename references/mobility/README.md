@@ -13,6 +13,14 @@ Bracing sequence as a single reset, daily mobilization session (16
 min) targeting the four areas that make neutral feel hard, and video
 references for every mobilization.
 
+### Healthy Day Formula — Kelly Starrett / FoundMyFitness
+→ [healthy-day-starrett.md](healthy-day-starrett.md)
+
+Podcast-derived daily movement framework: pain as a request for change,
+movement minimums as vital signs, desk antidotes, floor sitting,
+breathing as trunk mobility, spin-ups, and movement snacks. Best source
+for turning posture work into an all-day operating system.
+
 ### Sitting Posture — Seminal Resources
 → [sitting-posture.md](sitting-posture.md)
 
@@ -51,3 +59,6 @@ asymmetries and movement dysfunction.
   (Starrett recommends 15-20 min)
 - **Test/retest**: always benchmark ROM before and after mobilization.
   No measurable change = wrong target
+- **Movement snacks beat posture fidgeting**: break desk time with
+  small exposures to walking, floor sitting, squatting, hanging,
+  breathing, and trunk rotation

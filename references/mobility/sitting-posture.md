@@ -58,6 +58,7 @@ slouched for hours), not from single heavy loads.
 | Video | Why watch | Length |
 |-------|-----------|--------|
 | [Huberman x Starrett — Ep. 206](https://youtu.be/8N7mdkrXgbc) | Full mental model for posture as a movement practice. Bracing sequence, neutral spine, mobility philosophy | 3.5 hrs |
+| [FoundMyFitness x Starrett — Healthy Day Formula](https://www.youtube.com/watch?v=IXmOJsfebMM) | Best upgrade to the posture guru: desk antidotes, movement snacks, floor sitting, breathing as trunk mobility, movement minimums, and pain as feedback | 3 hrs |
 | [Huberman x Stuart McGill](https://www.hubermanlab.com/episode/dr-stuart-mcgill-build-a-strong-pain-proof-back) | Spine hygiene in plain language. How to sit without accumulating damage, walking as medicine, the Big Three | 2.5 hrs |
 
 ### Quick Routines
@@ -128,3 +129,15 @@ the position.
 2. **Do the Big Three** once a day — 10 minutes for spine stability
 3. **Reorganize every 30 min** — stand, move, sit differently. The
    best posture is the next posture
+
+## Starrett Healthy-Day Add-On
+
+From [healthy-day-starrett.md](healthy-day-starrett.md): do not solve
+posture by adding more cues. Add movement inputs.
+
+- Before laptop: 5-minute walk, hip spin-up, shoulder spin-up, or breath
+  spin-up
+- During passive time: floor-sit and rotate positions for 20-30 minutes
+- During work: use movement snacks instead of shoulder/pelvis fidgeting
+- For desk shoulders: check ribcage/breath/T-spine before micromanaging
+  scapulae

@@ -7,3 +7,6 @@ __pycache__/
 export.xml
 apple_health_export/
 health/raw/
+
+# Node
+node_modules/

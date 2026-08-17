@@ -13,12 +13,18 @@ domains:
   - crossfit
   - running
   - peloton
+  - treadmill
   - mobility
   - breathwork
   - meditation
 
 training_context:
-  current_program: Flagship Hypertrophy Cycle (Nov 2025)
-  gym: CrossFit Shoes
+  current_program: CrossFit at Top Training Club (Apr 2026)
+  previous_program: Treadmill incline + mobility (Mar 2026)
+  gym: Top Training Club
+  location: Panama
   notes: |
-    Hypertrophy-focused block. Tracking compound lifts and accessories.
+    Back in a CrossFit box. First session 2026-04-09, liked the level.
+    Rebuilding from treadmill bridge phase — expect working weights to be conservative.
+    Continue pairing with mobility, breathwork, and meditation from xf references.
+    Priority: consistency (3x/week minimum), log working weights to establish baselines.

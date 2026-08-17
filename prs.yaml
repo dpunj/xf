@@ -4,8 +4,8 @@
 crossfit:
   barbell:
     deadlift:
-      # Placeholder — add your 1RM when ready
-      notes: "RDL 4x8 @ 125lb logged in Flagship Hypertrophy W2 (Nov 2025)"
+      working: { weight: 165, unit: lb, sets: 5, reps: 3, date: "2026-04-09", program: "Top Training Club" }
+      notes: "First session back. RDL 4x8 @ 125lb was previous best (Flagship Hypertrophy W2, Nov 2025)"
 
     rdl:
       working: { weight: 125, unit: lb, sets: 4, reps: 8, date: "2025-11-03", program: "Flagship Hypertrophy W2" }
@@ -26,13 +26,13 @@ crossfit:
       # Add 1RM
 
     thruster:
-      # Add 1RM
+      working: { weight: 75, unit: lb, reps: 30, date: "2026-04-10", program: "Top Training Club", notes: "chipper WOD (15+15), Rx was 115/75" }
 
     clean_complex:
       # Add 1RM
 
-    clean_and_jerk:
-      # Add 1RM
+    power_clean_and_jerk:
+      working: { weight: 75, unit: lb, reps: 30, date: "2026-04-10", program: "Top Training Club", notes: "chipper WOD (15+15), Rx was 115/75" }
 
   dumbbell:
     db_press:

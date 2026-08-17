@@ -51,6 +51,22 @@ running:
 peloton:
   # Future: FTP, PR rides, output records
 
+surf:
+  # Protocol: references/surf/protocol.md
+  # BOLT score lives under breathwork (canonical); strict pull-ups under crossfit
+  breath:
+    max_breath_hold:
+      # Add max dry hold (seconds, seated, never in water, no hyperventilation)
+  swimming:
+    swim_400m:
+      # Add time (Zone 2 continuous)
+  paddle_posture:
+    prone_cobra_hold:
+      # Add hold time (target 2 min)
+  popup:
+    max_perfect_reps_2min:
+      # Add score (video check: squat-to-rotation, feet land 45 deg, no knees)
+
 mobility:
   # ROM benchmarks, position milestones
   # Future: ankle dorsiflexion, hip flexion, overhead position

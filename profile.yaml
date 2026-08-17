@@ -11,6 +11,7 @@ vitals:
 
 domains:
   - crossfit
+  - surf
   - running
   - peloton
   - treadmill
@@ -28,3 +29,8 @@ training_context:
     Rebuilding from treadmill bridge phase — expect working weights to be conservative.
     Continue pairing with mobility, breathwork, and meditation from xf references.
     Priority: consistency (3x/week minimum), log working weights to establish baselines.
+
+    Surf preparedness block: references/surf/protocol.md — daily t-spine + pop-up
+    minimums, swim 1-2x/week, dry CO2 tables, cold plunge on rest days only.
+    Goal: paddle endurance + composure for surf trips, without interfering with
+    CrossFit adaptations.

@@ -1,2 +1,9 @@
 local/
 .DS_Store
+__pycache__/
+*.pyc
+
+# Raw Apple Health exports are huge/sensitive. Keep normalized YAML only.
+export.xml
+apple_health_export/
+health/raw/

@@ -1,4 +1,14 @@
 name: Divesh
+age: 33
+weight: { value: 150, unit: lb, note: "approximate, as of 2026-03" }
+height: { value: 167, unit: cm }
+
+vitals:
+  resting_hr: { value: 82, unit: bpm, period: "11-week avg", date: "2026-03-23" }
+  max_hr: { value: 201, unit: bpm, source: "Apple Watch, last 6 months", date: "2026-03-23" }
+  hrr: { value: 119, unit: bpm, note: "max_hr - resting_hr" }
+  vo2_max: { value: 30, unit: "mL/kg/min", rating: low, source: "Apple Watch", date: "2026-03-23" }
+
 domains:
   - crossfit
   - running

@@ -1,0 +1,11 @@
+date: "2026-10-14"
+gym: Top Training Club
+source: xf-note
+raw: |
+  B clean cx (C + low hang C + C) → 95 / 105 / 115 / 120, 125 if sharp: for sure did it with 135, and think did another set with 140.
+  S FS speed emom10 x2 @ 95–100, 105 if fast: ended up doing 115 pretty fast, then last few at 125 which felt good
+lifts:
+  - { block: B, movement: clean_complex, weight: 135, unit: lb, sets: 1, reps: 1, notes: "clean + low hang clean + clean. Planned top set 120-125" }
+  - { block: B, movement: clean_complex, weight: 140, unit: lb, sets: 1, reps: 1, notes: "probable, not certain" }
+  - { block: S, movement: front_squat, weight: 115, unit: lb, reps: 2, notes: "speed EMOM10, most sets, fast" }
+  - { block: S, movement: front_squat, weight: 125, unit: lb, reps: 2, notes: "speed EMOM10, last few sets, felt good. Planned 95-105" }

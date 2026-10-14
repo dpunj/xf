@@ -1,0 +1,10 @@
+date: "2026-04-10"
+gym: Top Training Club
+source: manual
+wod:
+  title: "Chipper (15+15)"
+  scaled: true
+  notes: "Rx was 115/75; went 75"
+lifts:
+  - { movement: thruster, weight: 75, unit: lb, reps: 30 }
+  - { movement: power_clean_and_jerk, weight: 75, unit: lb, reps: 30 }

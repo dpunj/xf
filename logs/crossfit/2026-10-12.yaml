@@ -1,0 +1,9 @@
+date: "2026-10-12"
+gym: Top Training Club
+source: apple-notes
+raw: |
+  175 4x1 BS
+  95 snatch clean
+lifts:
+  - { movement: back_squat, weight: 175, unit: lb, sets: 4, reps: 1 }
+  - { movement: unknown, weight: 95, unit: lb, notes: "raw '95 snatch clean': confirm snatch, clean, or both" }

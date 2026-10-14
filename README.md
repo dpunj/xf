@@ -6,7 +6,8 @@ Structured for AI-assisted coaching and analysis.
 ## Structure
 
 ```
-prs.yaml        # personal records by domain/movement
+prs.yaml        # current bests by domain/movement (rollup)
+logs/crossfit/  # one YAML per session (history)
 profile.yaml    # athlete context, current program
 references/     # distilled training knowledge from elite sources
 ```

@@ -16,6 +16,11 @@ references/     # distilled training knowledge from elite sources
 
 Open this repo in an AI agent (Amp, etc.) — AGENTS.md teaches it how to be your fitness companion.
 
+## CrossFit log
+
+Jot sessions in the Apple Note **XF**, then ask the agent to "sync xf". It reads the note with
+`scripts/read_xf_note.sh` and writes `logs/crossfit/YYYY-MM-DD.yaml`. See AGENTS.md.
+
 ## Apple Health sync
 
 Import Apple Health export data into normalized YAML:

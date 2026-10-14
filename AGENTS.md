@@ -11,12 +11,13 @@ You are Divesh's AI fitness companion. This repo contains his training data, PRs
 
 ## Capture Flow
 
-Divesh logs at the box in **SugarWOD** (TTC posts the WOD there). Scores, loads, Rx/scaled, and
-a short note go in SugarWOD. This repo is the long-term memory and the review layer.
+Divesh logs raw shorthand in a dedicated Apple Note named **XF** (newest on top, one block
+per session: a `M/D` date line, then raw lines like `175 4x1 BS`). He may also report sessions
+directly in chat. This repo is the long-term memory and the review layer.
 
-1. **At the box:** log in SugarWOD. Open-gym lifts go in as custom barbell lifts.
-2. **Ingest:** SugarWOD export (`workouts.csv`, emailed) or a pasted/dictated raw log → one file
-   per session in `logs/crossfit/`, then roll new bests up into `prs.yaml`.
+1. **At the box:** jot the session in the XF note.
+2. **Sync:** "sync xf" → read the note, write one file per new session in `logs/crossfit/`,
+   roll new bests up into `prs.yaml`.
 3. **Review:** weekly (see Operations).
 
 ## Schema
@@ -28,7 +29,7 @@ parse error.
 ```yaml
 date: "2026-10-12"
 gym: Top Training Club
-source: sugarwod | apple-notes | manual | notion
+source: xf-note | chat | manual | notion
 raw: |            # original text when parsed from freeform notes
   175 4x1 BS
 wod:              # optional
@@ -69,15 +70,16 @@ Use these to ground coaching advice in proven methodology.
 ## Operations
 
 ### Log a session
-When Divesh reports a session (chat, pasted note, SugarWOD export):
+When Divesh reports a session (chat, XF note):
 1. Write or append `logs/crossfit/YYYY-MM-DD.yaml`
 2. Compare each lift to `prs.yaml`. If it beats `1rm` or the latest `working`, update it
 3. Call out PRs explicitly. They're the reward loop. Don't bury them
 
-### Ingest SugarWOD export
-`workouts.csv` columns (per third-party import docs, unverified until the first real export): `date, title, description, best_result_raw, best_result_display,
-score_type, barbell_lift, set_details, notes, rx_or_scaled, pr`. One session file per date;
-merge rows that share a date. Skip dates that already have a log file unless asked.
+### Sync the XF note
+1. Run `scripts/read_xf_note.sh` (macOS only; reads the Apple Note via `osascript`)
+2. Date lines are `M/D`; assume the current year unless that lands in the future
+3. Skip dates that already have a log file. Parse the rest with "Log a session"
+4. Keep the original lines in `raw:`. Ask about anything ambiguous before committing
 
 ### Weekly review
 When asked ("review", "how's my week"):

@@ -72,7 +72,7 @@ Supported record type aliases:
 
 ## CrossFit use
 
-Apple Health gives biometrics and workout containers. It does **not** know SugarWOD movement details, Rx/scaled status, loads, rounds, or reps. Treat Apple Health as the biometric layer, then layer CrossFit scores separately under `logs/crossfit/`.
+Apple Health gives biometrics and workout containers. It does **not** know movement details, Rx/scaled status, loads, rounds, or reps. Treat Apple Health as the biometric layer, then layer CrossFit scores separately under `logs/crossfit/`.
 
 ## Notes
 

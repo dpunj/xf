@@ -1,0 +1,9 @@
+date: "2026-10-13"
+gym: Top Training Club
+source: manual
+raw: |
+  4x1 powerclean + pushpress = 125
+  bench press 3.3.3. x 3 sets = 125 (i think?)
+lifts:
+  - { movement: power_clean_push_press, weight: 125, unit: lb, sets: 4, reps: 1, notes: "complex: 1 power clean + 1 push press" }
+  - { movement: bench_press, weight: 125, unit: lb, sets: 3, reps: 3, notes: "weight from memory, unsure" }

@@ -47,6 +47,10 @@ crossfit:
 
     squat_snatch:
       1rm: { weight: 95, unit: lb, source: notion, notes: "no date in Notion" }
+      working: { weight: 95, unit: lb, sets: 3, reps: 1, date: "2026-10-12", program: "Top Training Club", notes: "heavy, not max. 1RM matched 3x" }
+
+    power_clean_push_press:
+      working: { weight: 125, unit: lb, sets: 4, reps: 1, date: "2026-10-13", program: "Top Training Club", notes: "complex, 1+1" }
 
   dumbbell:
     db_press:

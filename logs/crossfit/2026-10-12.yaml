@@ -6,4 +6,4 @@ raw: |
   95 snatch clean
 lifts:
   - { movement: back_squat, weight: 175, unit: lb, sets: 4, reps: 1 }
-  - { movement: unknown, weight: 95, unit: lb, notes: "raw '95 snatch clean': confirm snatch, clean, or both" }
+  - { movement: squat_snatch, weight: 95, unit: lb, sets: 3, reps: 1, notes: "heavy, not max. Matches all-time 1RM for 3 singles. Squat vs power assumed" }

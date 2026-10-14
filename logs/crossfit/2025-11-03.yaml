@@ -1,0 +1,8 @@
+date: "2025-11-03"
+program: "Flagship Hypertrophy W2"
+source: notion
+lifts:
+  - { movement: rdl, weight: 125, unit: lb, sets: 4, reps: 8 }
+  - { movement: db_press, weight: 35, unit: lb, sets: 4, reps: 8 }
+  - { movement: bench_press, weight: 145, unit: lb, sets: 4, reps: 8, notes: "~85%, alleged" }
+  - { movement: db_split_squat, weight: 45, unit: lb, sets: 4, reps: 8, notes: "per side" }

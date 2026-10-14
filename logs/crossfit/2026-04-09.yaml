@@ -1,0 +1,6 @@
+date: "2026-04-09"
+gym: Top Training Club
+source: manual
+notes: "First session back after treadmill bridge phase. Liked the level."
+lifts:
+  - { movement: deadlift, weight: 165, unit: lb, sets: 5, reps: 3 }

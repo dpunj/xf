@@ -1,0 +1,9 @@
+date: "2026-10-12"
+gym: Top Training Club
+source: xf-note
+raw: |
+  175 4x1 BS
+  95 snatch clean
+lifts:
+  - { movement: back_squat, weight: 175, unit: lb, sets: 4, reps: 1 }
+  - { movement: squat_snatch, weight: 95, unit: lb, sets: 3, reps: 1, notes: "heavy, not max. Matches all-time 1RM for 3 singles." }

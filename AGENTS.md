@@ -84,7 +84,8 @@ When Divesh reports a session (chat, XF note):
 2. Date lines are `M/D`; assume the current year unless that lands in the future
 3. Skip dates that already have a log file. Parse the rest with "Log a session"
 4. `· plan` blocks are targets, not results. Don't log them; ask if he did the session
-5. Keep the original lines in `raw:`. Ask about anything ambiguous before committing
+5. `conf N/5` on a line → `confidence: N` on that lift
+6. Keep the original lines in `raw:`. Ask about anything ambiguous before committing
 
 ### Weekly review
 When asked ("review", "how's my week"):
@@ -92,6 +93,7 @@ When asked ("review", "how's my week"):
 - **Comeback board:** each movement's latest working weight vs its all-time `1rm` (most are
   2023 Notion numbers). Show the gap. The closest gaps are the next milestones to chase
 - **PRs since last review**
+- **Current focus** (`profile.yaml` → `focus`): trend its `confidence` scores and practice days
 - **One focus for next week:** a single lift or skill, not a program
 Keep it short. Name skipped weeks plainly.
 

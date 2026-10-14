@@ -78,6 +78,8 @@ When Divesh reports a session (chat, XF note):
 1. Write or append `logs/crossfit/YYYY-MM-DD.yaml`
 2. Compare each lift to `prs.yaml`. If it beats `1rm` or the latest `working`, update it
 3. Call out PRs explicitly. They're the reward loop. Don't bury them
+4. WODs: log only benchmarks (Girls, Heroes, Open) with score and Rx/scaled. Skip regular
+   class WODs; they don't repeat, so the score can't be compared
 
 ### Sync the XF note
 1. Run `scripts/read_xf_note.sh` (macOS only; reads the Apple Note via `osascript`)

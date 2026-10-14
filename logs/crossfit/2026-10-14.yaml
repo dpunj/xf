@@ -8,4 +8,5 @@ lifts:
   - { block: B, movement: clean_complex, weight: 135, unit: lb, sets: 1, reps: 1, notes: "clean + low hang clean + clean. Planned top set 120-125" }
   - { block: B, movement: clean_complex, weight: 140, unit: lb, sets: 1, reps: 1, notes: "probable, not certain" }
   - { block: S, movement: front_squat, weight: 115, unit: lb, reps: 2, notes: "speed EMOM10, most sets, fast" }
-  - { block: S, movement: front_squat, weight: 125, unit: lb, reps: 2, notes: "speed EMOM10, last few sets, felt good. Planned 95-105" }
+  - { block: S, movement: front_squat, weight: 125, unit: lb, reps: 2, confidence: 4.5, notes: "speed EMOM10, last few sets, felt good. Planned 95-105" }
+notes: "No accessory. Class WOD not tracked (not a benchmark)."

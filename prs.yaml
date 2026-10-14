@@ -21,6 +21,7 @@ crossfit:
 
     front_squat:
       1rm: { weight: 155, unit: lb, date: "2023-04-11", source: notion }
+      working: { weight: 125, unit: lb, reps: 2, date: "2026-10-14", program: "Top Training Club", notes: "speed EMOM10, last few sets" }
 
     bench_press:
       1rm: { weight: 195, unit: lb, date: "2023-02-21", source: notion }
@@ -37,7 +38,7 @@ crossfit:
       working: { weight: 75, unit: lb, reps: 30, date: "2026-04-10", program: "Top Training Club", notes: "chipper WOD (15+15), Rx was 115/75" }
 
     clean_complex:
-      1rm: { weight: 130, unit: lb, date: "2023-02-21", source: notion }
+      1rm: { weight: 135, unit: lb, date: "2026-10-14", program: "Top Training Club", notes: "C + low hang C + C. 140 probable. Prior best 130 (Notion, 2023-02-21)" }
 
     clean_and_jerk:
       # No 1RM on record (empty in Notion)

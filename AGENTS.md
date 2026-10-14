@@ -12,8 +12,12 @@ You are Divesh's AI fitness companion. This repo contains his training data, PRs
 ## Capture Flow
 
 Divesh logs raw shorthand in a dedicated Apple Note named **XF** (newest on top, one block
-per session: a `M/D` date line, then raw lines like `175 4x1 BS`). He may also report sessions
-directly in chat. This repo is the long-term memory and the review layer.
+per session: a `M/D` date heading, then raw lines like `S  BS 4x1 @ 175`). He may also report
+sessions directly in chat. This repo is the long-term memory and the review layer.
+
+Lines are prefixed by class block, in the order TTC runs them: **B** barbell (oly),
+**S** strength, **C** conditioning (WOD), **A** accessory. A heading like `10/14 · plan` holds
+targets written before the session, not results.
 
 1. **At the box:** jot the session in the XF note.
 2. **Sync:** "sync xf" → read the note, write one file per new session in `logs/crossfit/`,
@@ -74,12 +78,16 @@ When Divesh reports a session (chat, XF note):
 1. Write or append `logs/crossfit/YYYY-MM-DD.yaml`
 2. Compare each lift to `prs.yaml`. If it beats `1rm` or the latest `working`, update it
 3. Call out PRs explicitly. They're the reward loop. Don't bury them
+4. WODs: log only benchmarks (Girls, Heroes, Open) with score and Rx/scaled. Skip regular
+   class WODs; they don't repeat, so the score can't be compared
 
 ### Sync the XF note
 1. Run `scripts/read_xf_note.sh` (macOS only; reads the Apple Note via `osascript`)
 2. Date lines are `M/D`; assume the current year unless that lands in the future
 3. Skip dates that already have a log file. Parse the rest with "Log a session"
-4. Keep the original lines in `raw:`. Ask about anything ambiguous before committing
+4. `· plan` blocks are targets, not results. Don't log them; ask if he did the session
+5. `conf N/5` on a line → `confidence: N` on that lift
+6. Keep the original lines in `raw:`. Ask about anything ambiguous before committing
 
 ### Weekly review
 When asked ("review", "how's my week"):
@@ -87,6 +95,7 @@ When asked ("review", "how's my week"):
 - **Comeback board:** each movement's latest working weight vs its all-time `1rm` (most are
   2023 Notion numbers). Show the gap. The closest gaps are the next milestones to chase
 - **PRs since last review**
+- **Current focus** (`profile.yaml` → `focus`): trend its `confidence` scores and practice days
 - **One focus for next week:** a single lift or skill, not a program
 Keep it short. Name skipped weeks plainly.
 

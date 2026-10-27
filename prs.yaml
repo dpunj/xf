@@ -45,7 +45,7 @@ crossfit:
 
     power_clean:
       1rm: { weight: 145, unit: lb, date: "2026-10-26", program: "Top Training Club", notes: "from a triple, no touch-and-go. Untested single is higher" }
-      working: { weight: 145, unit: lb, sets: 1, reps: 3, date: "2026-10-26", program: "Top Training Club", notes: "3x3 no touch-and-go; maybe 2 sets at 145" }
+      working: { weight: 145, unit: lb, sets: 1, reps: 3, date: "2026-10-26", program: "Top Training Club", notes: "3x3 no touch-and-go; top set at 145" }
 
     clean_and_jerk:
       # No 1RM on record (empty in Notion)

@@ -1,0 +1,10 @@
+date: "2026-10-16"
+gym: Top Training Club
+source: xf-note
+raw: |
+  B 4x (power clean + 2 push jerk) → 95 / 105 / 115 / 115–120 > 115 🤙
+  S strict press 3x10 @ 75, 80 if clean > 80
+notes: "Hungover, poor sleep. Planned as a practice day. S2/C/A results not written down."
+lifts:
+  - { block: B, movement: power_clean_push_jerk, weight: 115, unit: lb, sets: 4, reps: 1, notes: "complex: 1 power clean + 2 push jerks; top set 115" }
+  - { block: S, movement: strict_press, weight: 80, unit: lb, sets: 3, reps: 10, notes: "first strict press on record" }

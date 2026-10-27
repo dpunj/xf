@@ -28,6 +28,7 @@ Line notation. `@` means actually lifted, so it appears only under LOG. Targets 
 - `3x3 @ 115`: every set at the same weight
 - `x3 @ 115 / 125 / 135`: reps per set, then one weight per set (`/` only ever separates sets)
 - `(PC + 2 push jerk) @ ...`: a complex, one rep of the whole thing per set
+- `3x(3.3.3) @ 125`: cluster sets, 3 minis of 3 with short rest inside each set
 - `🏆` PR · `?` unsure number · `conf 4` front squat confidence 1–5 · notes after ` · `
 
 1. **At the box:** jot the session in the XF note.

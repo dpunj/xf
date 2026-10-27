@@ -23,7 +23,8 @@ The note has two parts:
 Lines are prefixed by class block, in the order TTC runs them: **B** barbell (oly),
 **S** strength, **C** conditioning (WOD), **A** accessory.
 
-Line notation (same in targets and log):
+Line notation. `@` means actually lifted, so it appears only under LOG. Targets use
+`aim`, `build to`, `cap`, never `@`, so a plan can't be misread as a result.
 - `3x3 @ 115`: every set at the same weight
 - `x3 @ 115 / 125 / 135`: reps per set, then one weight per set (`/` only ever separates sets)
 - `(PC + 2 push jerk) @ ...`: a complex, one rep of the whole thing per set

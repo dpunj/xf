@@ -11,13 +11,17 @@ You are Divesh's AI fitness companion. This repo contains his training data, PRs
 
 ## Capture Flow
 
-Divesh logs raw shorthand in a dedicated Apple Note named **XF** (newest on top, one block
-per session: a `M/D` date heading, then raw lines like `S  BS 4x1 @ 175`). He may also report
-sessions directly in chat. This repo is the long-term memory and the review layer.
+Divesh logs raw shorthand in a dedicated Apple Note named **XF**. He may also report sessions
+directly in chat. This repo is the long-term memory and the review layer.
+
+The note has two parts:
+- **🎯 targets** (top, gray italic): one block, `🎯 M/D targets`, for the next session only.
+  Claude writes and replaces it. Divesh doesn't edit it.
+- **LOG**: results only, newest on top. One block per session: a `M/D` date heading, then
+  raw lines like `S  BS 4x1 @ 175`. Divesh writes these at the box.
 
 Lines are prefixed by class block, in the order TTC runs them: **B** barbell (oly),
-**S** strength, **C** conditioning (WOD), **A** accessory. A heading like `10/14 · plan` holds
-targets written before the session, not results.
+**S** strength, **C** conditioning (WOD), **A** accessory.
 
 1. **At the box:** jot the session in the XF note.
 2. **Sync:** "sync xf" → read the note, write one file per new session in `logs/crossfit/`,
@@ -85,7 +89,9 @@ When Divesh reports a session (chat, XF note):
 1. Run `scripts/read_xf_note.sh` (macOS only; reads the Apple Note via `osascript`)
 2. Date lines are `M/D`; assume the current year unless that lands in the future
 3. Skip dates that already have a log file. Parse the rest with "Log a session"
-4. `· plan` blocks are targets, not results. Don't log them; ask if he did the session
+4. Only parse dates under **LOG**. The 🎯 block is targets, never results. Once its session is
+   logged, replace it with the next targets (or remove it). Rewrite the full note body:
+   Notes normalizes HTML, so splicing breaks
 5. `conf N/5` on a line → `confidence: N` on that lift
 6. Keep the original lines in `raw:`. Ask about anything ambiguous before committing
 

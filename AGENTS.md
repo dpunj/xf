@@ -23,6 +23,12 @@ The note has two parts:
 Lines are prefixed by class block, in the order TTC runs them: **B** barbell (oly),
 **S** strength, **C** conditioning (WOD), **A** accessory.
 
+Line notation (same in targets and log):
+- `3x3 @ 115`: every set at the same weight
+- `x3 @ 115 / 125 / 135`: reps per set, then one weight per set (`/` only ever separates sets)
+- `(PC + 2 push jerk) @ ...`: a complex, one rep of the whole thing per set
+- `🏆` PR · `?` unsure number · `conf 4` front squat confidence 1–5 · notes after ` · `
+
 1. **At the box:** jot the session in the XF note.
 2. **Sync:** "sync xf" → read the note, write one file per new session in `logs/crossfit/`,
    roll new bests up into `prs.yaml`.
@@ -92,7 +98,7 @@ When Divesh reports a session (chat, XF note):
 4. Only parse dates under **LOG**. The 🎯 block is targets, never results. Once its session is
    logged, replace it with the next targets (or remove it). Rewrite the full note body:
    Notes normalizes HTML, so splicing breaks
-5. `conf N/5` on a line → `confidence: N` on that lift
+5. `conf N` on a line → `confidence: N` on that lift
 6. Keep the original lines in `raw:`. Ask about anything ambiguous before committing
 
 ### Weekly review

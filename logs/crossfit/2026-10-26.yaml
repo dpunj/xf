@@ -4,7 +4,7 @@ source: chat
 raw: |
   B power clean 3x3, no touch-and-go: 115, 125, 135, then 145 for the last set or two. Felt great.
   S front squat 3x3: started at 115, then 125 (pretty sure) for the last two sets. Could go up, held back.
-  C burpees + row + wall balls; 20 unbroken wall balls x3. Also 3x10 "hard cleans" at 135, mostly touch-and-go.
+  C burpees + row + wall balls; 20 unbroken wall balls x3. Also 3x10 "hard cleans" at 115 (corrected from 135), mostly touch-and-go.
   A skipped (gym packed)
 lifts:
   - { block: B, movement: power_clean, weight: 135, unit: lb, sets: 1, reps: 3 }
@@ -13,5 +13,5 @@ lifts:
   - { block: S, movement: front_squat, weight: 125, unit: lb, sets: 2, reps: 3, notes: "weight 'pretty sure'. Felt like more was there; held back on purpose" }
 notes: |
   WOD not tracked (not a benchmark). Highlights: 3x20 unbroken wall balls after burpees and rowing;
-  3x10 cleans at 135 in the WOD, mostly touch-and-go ("hard cleans" from voice, likely hang cleans; unconfirmed).
+  3x10 cleans at 115 in the WOD, mostly touch-and-go ("hard cleans" from voice, likely hang cleans; unconfirmed).
   No accessory: gym was packed.

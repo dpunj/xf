@@ -1,0 +1,14 @@
+date: "2026-10-28"
+gym: Top Training Club
+source: xf-note
+raw: |
+  S BS 4x4 · build to 145–155 · ... — built to 155!! Last 2 sets 🤙
+  (chat) had to stop the wod at R3 ... was feeling very fatigued. and was doing things unbroken...
+  the 15 cal bike, the 12 db snatches, the 60 double unders ... finished at 3 (was supposed to be 4)
+lifts:
+  - { block: S, movement: back_squat, weight: 155, unit: lb, sets: 2, reps: 4, notes: "built to 155, last 2 sets. First 2 sets not recorded" }
+notes: |
+  Terrible day mentally; went anyway. Overhead primer done before class: "felt good to push my body like that". B (power snatch 4x3,
+  or snatch-grip RDL sub) not recorded.
+  WOD not tracked (not a benchmark): 15 cal bike + 12 DB snatches + 60 double unders, mostly unbroken.
+  Stopped after 3 of 4 rounds from fatigue.

@@ -17,7 +17,7 @@ crossfit:
 
     back_squat:
       1rm: { weight: 200, unit: lb, date: "2023-02-21", source: notion }
-      working: { weight: 175, unit: lb, sets: 4, reps: 1, date: "2026-10-12", program: "Top Training Club" }
+      working: { weight: 155, unit: lb, sets: 2, reps: 4, date: "2026-10-28", program: "Top Training Club", notes: "4x4, built to 155 for the last 2. Prior: 175 4x1 (2026-10-12)" }
 
     front_squat:
       1rm: { weight: 155, unit: lb, date: "2023-04-11", source: notion }

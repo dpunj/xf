@@ -14,7 +14,7 @@ You are Divesh's AI fitness companion. This repo contains his training data, PRs
 Divesh logs raw shorthand in a dedicated Apple Note named **XF**. He may also report sessions
 directly in chat. This repo is the long-term memory and the review layer.
 
-The note has two parts:
+The note has a standing **PRIMER** section (overhead warm-up, reference only, never logged) and two parts:
 - **🎯 targets** (top, gray italic): one block, `🎯 M/D targets`, for the next session only.
   Claude writes and replaces it. Divesh doesn't edit it.
 - **LOG**: results only, newest on top. One block per session: a `M/D` date heading, then

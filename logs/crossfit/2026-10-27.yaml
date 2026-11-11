@@ -1,0 +1,13 @@
+date: "2026-10-27"
+gym: Top Training Club
+source: xf-note
+raw: |
+  B (PC + 3 split jerk) 4–5 sets · build to 115 · cap 125, only if all 3 jerks lock out: 95 was pretty rough , pretty unbalanced
+  S bench 4x8 · open 125, then 135 if rep 8 flies · spotter or safeties · chins 4x8 strict, dead hang: bench did 135 really well, chin ups I flew as well as
+  (chat) stayed at 95 on the jerks. Bench: think first 125 and then 3 sets at 135
+lifts:
+  - { block: B, movement: power_clean_split_jerk, weight: 95, unit: lb, reps: 1, notes: "complex: 1 power clean + 3 split jerks, 4-5 sets. Stayed at 95: rough, unbalanced. First split jerks in ~6 months. Right shoulder aching" }
+  - { block: S, movement: bench_press, weight: 125, unit: lb, sets: 1, reps: 8, notes: "opener, 'think'" }
+  - { block: S, movement: bench_press, weight: 135, unit: lb, sets: 3, reps: 8, notes: "really well" }
+  - { block: S, movement: strict_chin_up, unit: bw, sets: 4, reps: 8, notes: "dead hang, flew. Superset with bench" }
+notes: "C (EMOM 24) result not written down. No accessory in the plan."

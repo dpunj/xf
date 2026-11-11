@@ -30,7 +30,7 @@ focus:
     - "Non-gym days, 3-5 min: 60s goblet bottom hold + 5 light FS with 3s pause"
     - "Once: learn to bail an empty bar forward (coach, or rack with safety pins)"
     - "Mobility check: 60s deep bodyweight squat, chest up. Not comfortable = mobility limit"
-  track: "XF note: 'conf N/5' after front squats"
+  track: "XF note: 'conf N' (1-5) after front squats"
   target: { lift: front_squat, weight: 170, unit: lb, rule: "85% of BS 1RM (200)" }
 
 training_context:
